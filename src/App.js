@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className = "App">
         
-        <h2 className="header">Welcome to your Todo App!</h2>
+        <h2 className="header">My ToDo List</h2>
         <TodoList todos={this.state.todos} />
         <TodoForm />
         
